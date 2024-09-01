@@ -13,7 +13,7 @@ Welcome to the **Web Scraping with Gemini** project! 🚀 This project demonstra
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/web-scraping-with-gemini.git
+   git clone https://github.com/Khatri4/web-scraping-with-gemini.git
    cd web-scraping-with-gemini
    ```
 
@@ -22,10 +22,21 @@ Welcome to the **Web Scraping with Gemini** project! 🚀 This project demonstra
    pip install -r requirements.txt
    ```
 
+## 🔑 API Key Setup
+
+To use the Gemini model, you'll need to set up your own API key:
+
+1. Obtain your API key from the Gemini model provider.
+2. Create a `.env` file in the root directory of the project.
+3. Add your API key to the `.env` file:
+   ```
+   GEMINI_API_KEY=your-api-key-here
+   ```
+
 ## 🚀 How to Run
 
 1. Make sure your environment is set up correctly (e.g., API keys, environment variables).
-2. Run the `main.py` script:
+2. Run the `main.py` script using streamlit command:
    ```bash
    streamlit run main.py
    ```
@@ -54,7 +65,3 @@ Welcome to the **Web Scraping with Gemini** project! 🚀 This project demonstra
 ## 📄 License
 
 This project is licensed under the MIT License.
-
----
-
-This README should give potential users a clear understanding of your project, its purpose, and how to get started with it!
